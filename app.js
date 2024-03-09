@@ -1,1 +1,5 @@
-console.log('Hello World!');
+adjectives = ['Bawdy', 'Brainsick', 'Fat', 'False', 'Greasy', 'Infectious', 'Kindless', 'Lecherous', 'Paunchy', 'Puking', 'Qualling', 'Remorseless', 'Rotten', 'Sanguine', 'Spherical', 'Straveling', 'Vile', 'Venomous', 'Ugly', 'Yeasty'];
+participle = ['bat-fowling', 'beetle-brained', 'dismal-dreaming', 'elvish-mark\'d', 'fat-kidneyed', 'folly-fallen', 'hell-hated', 'idle-hated', 'ill-breeding', 'infant-like', 'milk-livered', 'reeling-ripe', 'rude-growing', 'sheep-biting', 'sodden-witted', 'swag-bellied', 'tardy-gaited', 'three-inch', 'tickle-brained', 'toad-spotted', 'worsted-stocking'];
+nouns = ['bed-presser', 'biscuit', 'boar-pig', 'bull\'s-pizzle', 'carbuncle', 'coward', 'death-token', 'eel-skin', 'fustilarian', 'harlot', 'hog', 'horseback-breaker', 'knave', 'madman', 'neat\'s-tongue', 'ratsbane', 'rogue', 'stock-fish', 'whoreson', 'villain', 'worms-mean'];
+
+console.log(`Your shakespearean insult is: ${adjectives[Math.floor(Math.random()*adjectives.length)]} ${participle[Math.floor(Math.random()*participle.length)]} ${nouns[Math.floor(Math.random()*nouns.length)]}`);
